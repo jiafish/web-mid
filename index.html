@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+        
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" ></link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>個人Resume</title>
+    <script src='js/1.8.2jquery.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
+</head>
+
+<body>
+        
+    <div class="container-fluid">
+            
+        <div class="row">
+            <div class="col-md-12 homebox"></div>
+            <div style="border:5px white solid;"></div>
+        </div>
+        <div class="ground row">
+                
+                <div class="col-md-3 circle">
+                        <a href="index.html#head">介紹 </a> 
+                </div>
+                <div class="col-md-3 circle">
+                        <a href="index.html#school">學校</a>
+                </div>
+                <div class="col-md-3 circle">
+                        <a href="index.html#habit">喜好</a>
+                </div>
+                <div class="col-md-3 circle">
+                        <a href="index.html#work">作品</a>
+                </div>
+                  
+            
+
+        </div>
+        <a name="head"> </a>
+        <div class="head row">
+                
+                <div class="col-md-4">
+                        <img src="images/46804316_1364941756969923_4167802432581009408_o.jpg" width=400px;>
+                </div>
+                <div class="col-md-8">
+                        <div style="border:5px white solid;"></div>
+                       <h1>姓名:張家瑜</h1>
+                       <h1>生日:1999/04/05</h1>
+                       <h1>血型:A</h1>
+                       <h1>星座:牡羊座</h1>
+                </div>
+          
+        </div>
+        <a name="school"> </a>
+        <div class="row">
+            
+                <div class="col-md-12 school">
+                        <div style="border:5px white solid;"></div>
+                        <h1>新竹女中</h1>
+                </div>
+
+        </div>
+        <a name="habit"> </a>
+        <div class="back row">
+               
+                        
+
+                        <div class="col-md-3 habit1">
+                                
+                                <h1>甜食</h1>
+                        </div>
+                        <div class="col-md-3 habit2">
+                                
+                                <h1>珍奶</h1>
+                        </div>
+                        <div class="col-md-3 habit3">
+                                
+                                <h1>排球</h1>
+                        </div>
+                        <div class="col-md-3 habit4">
+                               
+                                <h1>動畫</h1>
+                        </div>
+                          
+                   
+    </div>
+    <a name="work"> </a>
+              <div class=" row">     
+                    <div style="border:5px white solid;"></div>
+                        <div class="col-md-12 w1">
+                    </div>    
+
+
+              </div>
+              <div class=" row">     
+                    <div style="border:5px white solid;"></div>
+                        <div class="col-md-12 w2">
+                    </div>    
+
+
+              </div>
+              <div class=" row">     
+                    <div style="border:5px white solid;"></div>
+                        <div class="col-md-12 w3">
+                    </div>    
+
+
+              </div>
+              <div class=" row">     
+                    <div style="border:5px white solid;"></div>
+                        <div class="col-md-12 w4">
+                    </div>    
+
+
+              </div>
+    </div>
+    <!-- 回到頂端按鈕 start -->
+<script>
+        //<![CDATA[
+        (function () {
+        $("body").append("<img id='goTopButton' style='display: none; z-index: 5; cursor: pointer;' title='回到頂端'/>");
+        var img = "https://image.freepik.com/free-icon/home-icon-silhouette_318-85097.jpg",
+        locatioin = 1/2, // 按鈕出現在螢幕的高度
+        right = 10, // 距離右邊 px 值
+        opacity = 0.3, // 透明度
+        speed = 500, // 捲動速度
+        $button = $("#goTopButton"),
+        $body = $(document),
+        $win = $(window);
+        $button.attr("src", img);
+        $button.on({
+        mouseover: function() {$button.css("opacity", 1);},
+        mouseout: function() {$button.css("opacity", opacity);},
+        click: function() {$("html, body").animate({scrollTop: 0}, speed);}
+        });
+        window.goTopMove = function () {
+        var scrollH = $body.scrollTop(),
+        winH = $win.height(),
+        css = {"top": winH * locatioin + "px", "position": "fixed", "right": right, "opacity": opacity};
+        if(scrollH > 20) {
+        $button.css(css);
+        $button.fadeIn("slow");
+        } else {
+        $button.fadeOut("slow");
+        }
+        };
+        $win.on({
+        scroll: function() {goTopMove();},
+        resize: function() {goTopMove();}
+        });
+        } )();
+        //]]>
+        </script>
+        <!-- 回到頂端按鈕 end, Design by WFU BLOG -->
+</body>
+</html>

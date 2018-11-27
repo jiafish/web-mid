@@ -1,0 +1,188 @@
+body{
+    background:
+    #FFFFFF;
+  }
+
+  
+ .homebox{
+    height: 720px;
+    background-image: url(f0cb5f477c3a3944e515156d8a8480fb.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+ }
+.homebox h1{
+    position: absolute;
+    top:240px;
+    font-size:72px;
+    color:	#000000;
+    border-radius:10px;
+    font-family:Arial Black;
+    left: 570px;
+}
+.ground{
+    height:250px; 
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.circle{
+   
+    display:inline-flex;
+    
+    justify-content:center;
+    
+    width:270px;height:270px; 
+
+    border-radius:999em;
+    
+    background-image: url(p.jpg);
+}
+.circle a{ 
+    position: absolute;
+    
+    top:830px;
+    font-size:50px;  
+}
+
+
+.head{
+    
+    display:flex;
+align-items:center;
+justify-content:space-around;
+    height:500px;
+   
+}
+.head h1{
+   left:600px;
+    font-size:30px; 
+}
+.school{
+    height: 720px;
+    background-image: url(IMAG1989.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+ }
+ .school:hover{
+    background: url("P_20170609_121714_vHDR_Auto.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+ }
+ .school h1{
+    position: absolute;
+    font-size:72px;
+    color:	#FFFFFF;
+    font-family:Arial Black;
+    left:20px;
+     
+ }
+ .back{
+    height:280px; 
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content:space-between; 
+ }
+ .habit1{
+    border:5px #FFFFFF solid;
+    display:inline-flex;
+    
+    justify-content:center;
+    border-radius:20px;
+    width:270px;height:270px; 
+    
+    background-image: url(https://cc.tvbs.com.tw/img/program/_data/i/upload/2017/09/08/20170908171025-fdf262e4-me.jpg);
+    background-position: 50% 50% ;
+ }
+ .habit1:hover{
+    filter: brightness(125%)
+ }
+ .habit2{
+    border:5px #FFFFFF solid;
+    display:inline-flex;
+    
+    justify-content:center;
+    border-radius:20px;
+    width:270px;height:270px; 
+    
+    background-image: url(http://f.blog.xuite.net/f/5/4/5/11360451/blog_2462066/txt/61734020/0.jpg);
+    background-position: 50% 70% ;
+ }
+ .habit2:hover{
+    filter: brightness(125%)
+ }
+ .habit3{
+    border:5px #FFFFFF solid;
+    display:inline-flex;
+    
+    justify-content:center;
+    border-radius:20px;
+    width:270px;height:270px; 
+    
+    background-image: url(http://588ku.qiao88.com/back_pic/04/39/06/70584d39275acec.jpg!/fw/650);
+    background-position: 50% 50% ;
+ }
+ .habit3:hover{
+    filter: brightness(125%)
+ }
+ .habit4{
+    border:5px #FFFFFF solid;
+    display:inline-flex;
+    
+    justify-content:center;
+    border-radius:20px;
+    
+    width:270px;height:270px; 
+    
+    background-image: url(http://i2.wp.com/inews.gtimg.com/newsapp_match/0/1012399568/0);
+    background-position: 50% 50% ;
+ }
+ .habit4:hover{
+    filter: brightness(125%)
+ }
+ .back h1{
+    position: absolute;
+    top:2300px;
+    font-size:30px; 
+
+ }
+ .work{
+    height:300px; 
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content:space-between;
+
+ }
+ .w1{
+    height: 720px;
+    background-image: url(8825692434789.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+ }
+ .w2{
+    height: 720px;
+    background-image: url(正式版-01.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 30% ;
+    
+ }
+ .w3{
+    height: 720px;
+    background-image: url(畫面-01.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+ }
+ .w4{
+    height: 720px;
+    background-image: url(low\ poly-01.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+ }
+ .w4:hover{
+    background: url("1535114734-bd39ad4bc0380d66f9b9f076bfc38732.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
